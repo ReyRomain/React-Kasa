@@ -2,7 +2,7 @@ import React from "react";
 import Image from "../images/img-home.jpg";
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
-import ListOfThumbs from "../components/ListOfThumbs/ListOfThumbs";
+import ListOfAccommodations from "../components/ListOfAccommodations/ListOfAccommodations";
 import Footer from "../components/Footer/Footer";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
                         Chez vous, partout et ailleurs
                     </h1>
                 </Banner>
-                <ListOfThumbs />
+                <ListOfAccommodations />
             </main>
             <Footer />
         </>
