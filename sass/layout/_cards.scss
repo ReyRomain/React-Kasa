@@ -1,0 +1,39 @@
+.cards {
+    @include flexbox-column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+    row-gap: 35px;
+
+    @include mobile-M {
+        @include flexbox-row;
+        justify-content: center;
+    }
+
+    @include mobile-L {
+        @include flexbox-row;
+        justify-content: center;
+    }
+
+    @include mobile-XL {
+        @include flexbox-row;
+        justify-content: space-evenly;
+    }
+
+    @include tablet {
+        @include flexbox-row;
+        justify-content: space-evenly;
+        background-color: $color-grey;
+        padding: 50px;
+        border-radius: 25px;
+    }
+
+    @include laptop {
+        @include flexbox-row;
+        justify-content: space-between;
+        padding: 50px;
+        row-gap: 35px;
+        background-color: $color-grey;
+        border-radius: 25px;
+    }
+}
