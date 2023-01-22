@@ -1,0 +1,58 @@
+.collapse {
+    min-width: 260px;
+    max-width: 450px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: $color-grey;
+
+    @include laptop {
+        width: 700px;
+        margin: 20px 0;
+    }
+
+    &__is-open {
+        
+    }
+
+    &__is-close {
+        
+        ul {
+            display: none;
+        }
+    }
+
+    &__title {
+        @include flexbox-row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        color: $color-white;
+        background-color: $color-primary;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+
+        span {
+            @include flexbox-row;
+            align-items: center;
+            padding: 0.25rem 0;
+        }
+
+        i {
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    &__text {
+        height: 100%;
+        overflow: hidden;
+        padding: 0 30px 10px 20px;
+        transition: 200ms;
+        line-height: 34px;
+        font-size: 16px;
+        font-weight: 500;
+        color: $color-primary;
+    }
+}

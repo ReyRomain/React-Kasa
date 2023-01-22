@@ -1,0 +1,33 @@
+.rate {
+    @include flexbox-row;
+    width: 220px;
+    text-align: right;
+
+    @include tablet {
+        width: auto;
+        margin-top: 10px;
+    }
+
+    @include laptop {
+        width: auto;
+        margin-top: 10px;
+    }
+    
+    &__colored {
+        color: $color-primary;
+    }
+
+    i {
+        margin: 0 0 0 0.5rem;
+        font-size: 14px;
+        //color: $color-white-grey;
+
+        /*&::after {
+            color: $color-white-grey;
+        }*/
+
+        @include mobile-M {
+            font-size: 18px;
+        }
+    }
+}
