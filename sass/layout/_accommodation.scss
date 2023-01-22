@@ -1,0 +1,73 @@
+.accommodation {
+
+    @include tablet {
+        @include flexbox-row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @include laptop {
+        @include flexbox-row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info {
+
+        &__title {
+            color: $color-primary;
+
+            h1 {
+                font-size: 1.3rem;
+            }
+
+            p {
+                font-size: 1.05rem;
+            }
+        }
+
+        &__tag {
+            @include flexbox-row;
+            flex-wrap: wrap;
+            color: $color-white;
+
+            p {
+                min-width: 70px;
+                max-width: 300px;
+                margin: 10px 10px 5px 0;
+                padding: 5px 20px;
+                font-size: 14px;
+                text-align: center;
+                border-radius: 25px;
+                background-color: $color-primary;
+            }
+        }
+    }
+
+    &__owner {
+        @include flexbox-row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+
+        
+        @include tablet {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: flex-end;
+        }
+
+        @include laptop {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: flex-end;
+        }
+    }
+}
+
+.container-title-textarray {
+    @include laptop {
+        @include flexbox-row;
+        justify-content: space-between;
+    }
+}
