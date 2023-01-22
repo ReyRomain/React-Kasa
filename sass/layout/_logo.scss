@@ -1,0 +1,15 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+.logo__header {
+    width: 7rem;
+
+    &__image {
+        width: 100%;
+        height: 100%;
+    }
+
+    @include mobile-M {
+        width: 8rem;
+    }
+}

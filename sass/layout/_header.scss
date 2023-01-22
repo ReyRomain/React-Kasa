@@ -1,3 +1,11 @@
-header{
-    background-color: red;
+@import "../utils/mixins";
+@import "../utils/variables";
+
+header {
+    @include flexbox-row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5%;
+    padding: 10px;
+    background-color: $color-white;
 }

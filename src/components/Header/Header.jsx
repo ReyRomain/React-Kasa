@@ -4,11 +4,11 @@ import Nav from "./Nav/Nav";
 
 export default function Header() {
     return (
-        <>
+        <React.Fragment>
             <header>
                 <Logo />
                 <Nav />
             </header>
-        </>
+        </React.Fragment>
     )
 }
