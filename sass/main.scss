@@ -1,4 +1,22 @@
-@import "utils/_variables";
+/*** Utils ***/
+@import "./utils/mixins";
+@import "./utils/variables";
+
+/*** Global ***/
 @import "global/global";
+@import "global/reset";
+
+/*** Layout ***/
+@import "layout/accommodation";
+@import "layout/banner";
+@import "layout/carousel";
+@import "layout/dropDown";
 @import "layout/footer";
 @import "layout/header";
+@import "layout/host";
+@import "layout/cards";
+@import "layout/card";
+@import "layout/logo";
+@import "layout/main";
+@import "layout/rate";
+@import "layout/nav";
