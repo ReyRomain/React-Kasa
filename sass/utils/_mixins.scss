@@ -1,0 +1,56 @@
+/*** Mixins ***/
+
+/*** Flex ***/
+@mixin flexbox-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flexbox-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/*** Responsive ***/
+
+@mixin mobile-S {
+    @media screen and (min-width: 300px) {
+        @content;
+    }
+}
+
+@mixin mobile-M {
+    @media screen and (min-width: 375px) {
+        @content;
+    }
+}
+
+@mixin mobile-L {
+    @media screen and (min-width: 425px) and (max-width: 660px) {
+        @content;
+    }
+}
+
+@mixin mobile-XL {
+    @media screen and (min-width: 661px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: 1440px) {
+        @content;
+    }
+}
