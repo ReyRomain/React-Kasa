@@ -8,7 +8,7 @@ export default function Nav() {
                 <NavLink to={'/'}>
                     Accueil
                 </NavLink>
-                <NavLink to={'/'}>
+                <NavLink to={'/about'}>
                     A Propos
                 </NavLink>
             </nav>
