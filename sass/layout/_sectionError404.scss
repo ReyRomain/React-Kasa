@@ -1,0 +1,32 @@
+.section-error404 {
+    @include flexbox-column;
+    align-items: center;
+    text-align: center;
+    color: $color-primary;
+    margin: 140px 0;
+
+    h1 {
+        font-size: 6rem;
+        margin-bottom: 20px;
+
+        @include laptop {
+            font-size: 14rem;
+            margin-bottom: 60px;
+        }
+    }
+
+    p {
+        font-weight: 500;
+        margin-bottom: 100px;
+
+        @include laptop {
+            font-size: 1.5rem;
+            margin-bottom: 150px;
+        }
+    }
+
+    a {
+        color: $color-primary;
+        text-decoration: underline;
+    }
+}
