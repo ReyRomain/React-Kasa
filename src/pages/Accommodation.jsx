@@ -1,20 +1,23 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import datasList from "../datas/datasList.json";
+import Data from "../datas/data.json";
 import Header from "../components/Header/Header";
 import Carousel from "../components/Carousel/Carousel";
 import Tags from "../components/Tags/Tags";
 import Host from "../components/Host/Host";
 import DropDown from "../components/DropDown/DropDown";
 import Footer from "../components/Footer/Footer";
+import Error from "./Error";
 
 export default function Accommodation() {
     const {id} = useParams()
     
     // Get the Accommodation by id
-    const accommodation = datasList.find(data => data.id === id)
+    const accommodation = Data.find(data => data.id === id)
+
+    // If accommodation doesn't exist return component Error 404
     if (!accommodation) {
-        return <p>Error 404</p>
+        return <Error />
     }
 
     const stars = [1, 2, 3, 4, 5]
