@@ -10,9 +10,9 @@ export default function App() {
     return (
 		<BrowserRouter>
 			<Routes>
-				<Route exact path='/' element={<Home />} />
-                <Route exact path='/accommodation/:id' element={<Accommodation />} />
-				<Route excat path='/about' element={<About />} />
+				<Route path='/' element={<Home />} />
+                <Route path='/accommodation/:id' element={<Accommodation />} />
+				<Route path='/about' element={<About />} />
 				<Route path='*' element={<Error />} />
 			</Routes>
 		</BrowserRouter>
