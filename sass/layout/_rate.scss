@@ -2,6 +2,7 @@
     @include flexbox-row;
     width: 220px;
     text-align: right;
+    color: $color-white-grey;
 
     @include tablet {
         width: auto;

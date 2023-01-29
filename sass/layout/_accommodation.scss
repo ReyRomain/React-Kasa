@@ -69,5 +69,6 @@
     @include laptop {
         @include flexbox-row;
         justify-content: space-between;
+        margin-bottom: 40px;
     }
 }

@@ -1,4 +1,9 @@
 .container-dropdown-about {
     @include flexbox-column;
     align-items: center;
+
+    .collapse {
+        width: 100%;
+        max-width: 700px;
+    }
 }

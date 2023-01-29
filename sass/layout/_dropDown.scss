@@ -3,7 +3,6 @@
     max-width: 450px;
     margin: 20px auto;
     border-radius: 10px;
-    background-color: $color-grey;
 
     @include laptop {
         width: 700px;
@@ -54,5 +53,7 @@
         font-size: 16px;
         font-weight: 500;
         color: $color-primary;
+        background-color: $color-grey;
+        border-radius: 10px;
     }
 }
