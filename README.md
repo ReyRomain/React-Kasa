@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Projet 7 - Kasa
+OpenClassrooms : Projet n°7 du parcours Développeur Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Lancement de l'application
 
-## Available Scripts
+### Étape 1
+Installez l'application avec la commande "npm install" dans votre terminal.
 
-In the project directory, you can run:
+### Étape 2
+Lancez le serveur qui est actuellement sur le port 3000 de l'application avec la commande "npm start" dans votre terminal.
 
-### `npm start`
+## Information
+Kasa est une entreprise de location de logements entre particuliers depuis près de 10 ans et elle fait partie des leaders en France avec plus de 500 annonces postées chaque jour,
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Kasa me recrute en tant que développeur front-end en freelance pour développer leur nouvelle application web.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Mission
 
-### `npm test`
+### Étape 1
+* Initialisez le projet avec React
+* Ajoutez React Router
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Étape 2
+Créez le routeur et les différentes pages de l'application.
 
-### `npm run build`
+### Étape 3
+* Créez la page d'accueil
+* Créez la page À propos
+* Créez la page logement
+* Créez la page d'erreur
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Étape 4
+* Créez les composants Header, Footer etc...
+* Créez le composant Carrousel
+* Créez le composant Liste déroulante
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Étape 5
+Gérez l'erreur sur l'id d'une propriété.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Étape 6
+Gérez la mise en page à partir de la maquette et s'occuper de la responsive.
