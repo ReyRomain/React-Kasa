@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 
-function Card({id, cover, title, location}) {
+export default function Card({id, cover, title, location}) {
     return (
         <React.Fragment>
             <Link to={`/accommodation/${id}`} key={`accommodation-${id}`} className="card">
@@ -18,12 +17,3 @@ function Card({id, cover, title, location}) {
         </React.Fragment>
     )
 }
-
-Card.propTypes = {
-    id: PropTypes.string.isRequired,
-    cover: PropTypes.string,
-    title: PropTypes.string.isRequired,
-    location: PropTypes.string
-}
-
-export default Card;

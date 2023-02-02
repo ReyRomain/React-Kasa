@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 
-function DropDown({title, textArray}) {
+export default function DropDown({title, textArray}) {
     const [showIsOpen, setShowIsOpen] = useState(false)
 
     function updateShow() {
@@ -30,10 +29,3 @@ function DropDown({title, textArray}) {
         </React.Fragment>
     )
 }
-
-DropDown.propTypes = {
-    title: PropTypes.string.isRequired,
-    textArray: PropTypes.arrayOf(PropTypes.string).isRequired
-}
-
-export default DropDown

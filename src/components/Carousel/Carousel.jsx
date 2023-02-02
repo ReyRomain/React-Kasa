@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 
-function Carousel({pictures}) {
+export default function Carousel({pictures}) {
     const [current, setCurrent] = useState(0)
     const lengthPictures = pictures.length
 
@@ -52,9 +51,3 @@ function Carousel({pictures}) {
         </React.Fragment>
     )
 }
-
-Carousel.propTypes = {
-    pictures: PropTypes.arrayOf(PropTypes.string)
-}
-
-export default Carousel
