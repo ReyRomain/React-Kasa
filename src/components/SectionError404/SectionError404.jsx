@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function SectionError404() {
     return (
-        <React.Fragment>
+        <>
             <section className="section-error404">
                 <h1>
                     404
@@ -15,6 +15,6 @@ export default function SectionError404() {
                     Retourner sur la page d'accueil
                 </Link>
             </section>
-        </React.Fragment>
+        </>
     )
 }

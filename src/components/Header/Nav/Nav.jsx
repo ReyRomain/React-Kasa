@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Nav() {
     return (
-        <React.Fragment>
+        <>
             <nav className="nav-header">
                 <NavLink to={'/'}>
                     Accueil
@@ -12,6 +12,6 @@ export default function Nav() {
                     A Propos
                 </NavLink>
             </nav>
-        </React.Fragment>
+        </>
     )
 }

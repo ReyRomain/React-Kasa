@@ -5,12 +5,12 @@ import Footer from "../components/Footer/Footer";
 
 export default function Error() {
     return (
-        <React.Fragment>
+        <>
             <Header />
             <main>
                 <SectionError404 />
             </main>
             <Footer />
-        </React.Fragment>
+        </>
     )
 }

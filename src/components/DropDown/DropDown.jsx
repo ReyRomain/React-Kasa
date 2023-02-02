@@ -10,7 +10,7 @@ export default function DropDown({title, textArray}) {
     const changeIcon = `fas ${showIsOpen ? "fa-chevron-up" : "fa-chevron-down"}`
 
     return (
-        <React.Fragment>
+        <>
             <section className={`collapse ${showIsOpen ? "collapse__is-open" : "collapse__is-close"}`}>
                 <div className="collapse__title" onClick={updateShow}>
                     <h2>
@@ -26,6 +26,6 @@ export default function DropDown({title, textArray}) {
                     ))}
                 </ul>
             </section>
-        </React.Fragment>
+        </>
     )
 }

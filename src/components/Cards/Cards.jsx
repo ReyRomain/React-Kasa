@@ -4,7 +4,7 @@ import Card from "./Card/Card";
 
 export default function Cards() {
     return (
-        <React.Fragment>
+        <>
             <section className="cards">
                 {Data.map(({id, cover, title, location}) =>
                     <Card 
@@ -14,6 +14,6 @@ export default function Cards() {
                     />
                 )}
             </section>
-        </React.Fragment>
+        </>
     )
 }

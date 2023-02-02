@@ -19,7 +19,7 @@ export default function Carousel({pictures}) {
     }
 
     return (
-        <React.Fragment>
+        <>
             <section className="carousel">
                 <div className="carousel__box">
                     {pictures.length > 0 ? (
@@ -48,6 +48,6 @@ export default function Carousel({pictures}) {
                     ""
                 )}
             </section>
-        </React.Fragment>
+        </>
     )
 }

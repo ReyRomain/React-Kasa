@@ -7,9 +7,8 @@ import DropDown from "../components/DropDown/DropDown";
 import Footer from "../components/Footer/Footer";
 
 export default function About() {
-
     return (
-        <React.Fragment>
+        <>
             <Header />
             <main>
                 <Banner>
@@ -22,6 +21,6 @@ export default function About() {
                 </div>
             </main>
             <Footer />
-        </React.Fragment>
+        </>
     )
 }

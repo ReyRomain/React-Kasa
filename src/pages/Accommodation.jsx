@@ -23,7 +23,7 @@ export default function Accommodation() {
     const stars = [1, 2, 3, 4, 5]
 
     return (
-        <React.Fragment>
+        <>
             <Header />
             <main>
                 <Carousel pictures={accommodation.pictures} />
@@ -66,6 +66,6 @@ export default function Accommodation() {
                 </div>
             </main>
             <Footer />
-        </React.Fragment>
+        </>
     )
 }
